@@ -1,1 +1,1 @@
-web: python filmes_api.py
+web: gunicorn "filmes_api:filmes()"
