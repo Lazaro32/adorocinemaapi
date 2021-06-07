@@ -1,1 +1,1 @@
-web: gunicorn "filmes_api:filmes()"
+web: gunicorn gettingstarted.wsgi
